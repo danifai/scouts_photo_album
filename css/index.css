@@ -1,0 +1,103 @@
+.navbar-brand img{
+    width: 75px;
+}
+
+
+#album-de-fotos {
+    background-color: rgb(190, 193, 193);
+    padding: 15px;
+}
+
+#camping .container-md{
+    margin: 20px auto;
+}
+
+.camping-title, .testimonios-title{
+    text-align: center;
+}
+
+.carousel-item img{
+    opacity: 0.3;
+}
+
+.testimonios-car img{
+    opacity: 1;
+}
+
+.carousel-caption h5{
+    color: black;
+}
+
+.carousel-caption p{
+    color: black;
+}
+
+#testimonios p{
+    text-align: center;
+}
+
+#testimoniosCarousel .carousel-control-prev,
+#testimoniosCarousel .carousel-control-next {
+    width: 5%;
+    filter: invert(100%);
+}
+
+#testimoniosCarousel .carousel-control-prev {
+    left: 20%;
+}
+
+#testimoniosCarousel .carousel-control-next {
+    right: 20%;
+}
+
+#testimoniosCarousel img{
+    width: 100px;
+    height: 100px;
+}
+
+aside h3{
+    text-align: center;
+    padding: 10px;
+}
+
+#contacto {
+    background-color: rgb(190, 193, 193);
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #d9d9d9;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.footer-content div {
+    margin: 5px;
+}
+
+@media (max-width: 992px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    #camping .container-md {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #ser-scout h3{
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,67 @@
+.navbar-brand img{
+    width: 75px;
+}
+
+
+.welcome-message {
+    text-align: center;
+    margin-top: 20px;
+}
+#abm-fotos {
+    margin-top: 40px;
+    background-color: #9cc4ed; /* Color de fondo distinto al blanco */
+    padding: 20px;
+    border-radius: 10px;
+}
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.photo-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+.photo-card img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #d9d9d9;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.footer-content div {
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 576px) {
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
